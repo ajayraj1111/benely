@@ -1,0 +1,315 @@
+
+
+body{
+    margin: 0;
+}
+.header{
+  background-color:white;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: lightgreen;
+    
+}
+.bentley-logo{
+width: 116px;
+margin-left: 45px;
+margin-top: 23px;
+cursor: pointer;
+}
+.header-second{
+    display: flex;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 200px;
+    flex: 2;
+    font-weight: 100;
+    opacity: .65;
+    
+    
+}
+.models{
+    
+    cursor: pointer;
+    margin-right: 40px;
+    height: 40px;
+    font-family: 'BentleyLight', arial, helvetica, sans-serif;
+    
+   
+}
+.world{
+    
+    cursor: pointer;
+    margin-left: 30px;
+    height: 40px;
+    font-family: 'BentleyLight', arial, helvetica, sans-serif;
+    
+}
+.header-third{
+    display: flex;
+    font-size: 12.5px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    flex: 2;
+    margin-top: 28px;
+    font-weight: 100;
+    opacity: .65;
+    
+}
+.configurator{
+    margin-right: 30px;
+    margin-top: 17px;
+    cursor: pointer;
+    font-family: "BentleyLight", arial, helvetica, sans-serif;
+}
+.locate-dealer{
+    margin-right: 30px;
+    margin-top: 17px;
+    cursor: pointer;
+    font-family: "BentleyLight", arial, helvetica, sans-serif;
+    
+}
+.request{
+    background-color: #003220;
+    font-weight: bold;
+    margin-top: 32px;
+    margin-right: 25px;
+    height: 40px;
+    color: #fff;
+    width: 230px;
+    cursor: pointer;
+}
+
+.back-image-spur{
+    width: 100%;
+    height: 575px;
+    background-image: url(Bentley\ Flying_Spur_Speed_Hero3.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.shading-spur{
+    position: absolute; left: 0; top: 0; width: 50%; height: 575px;
+    padding-left:38px;
+    background-image: linear-gradient(to right,
+    rgba(0, 0, 0, 0.911),
+    rgb(0, 0, 0,.800),
+    rgba(0, 0, 0, 0.500),
+    rgba(0,0,0,.300),
+    rgba(0,0,0,0.0));
+    
+}
+.part1{
+    margin-top: 25%;
+}
+.word1{
+    color: #fff;
+    font-weight: 500;
+    font-size: 22px;
+    opacity: .92;
+    font-family: "BentleyLight", arial, helvetica, sans-serif;
+}
+.word2{
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    opacity: .92;
+    font-family: "BentleyLight", arial, helvetica, sans-serif;
+}
+.button1{
+background-color: #275342;
+width: 52% ;
+height: 50px;
+margin-top: 20px;
+color: #fff;
+font-size: 16px;
+border-width: 0;
+font-weight: 500;
+opacity: .95;
+cursor: pointer;
+}
+
+.button2{
+    background-color: white;
+    width:52%;
+    height: 50px;
+    margin-top: 15px;
+    font-size: 13px;
+    color: #fff;
+    background: transparent;
+    border-width: 1px;
+    border-color: #fff;
+    border: solid;
+    font-weight: 500;
+    opacity: .95;
+    cursor: pointer;
+}
+.family-pics{
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+.family-pic-1{
+    width: 100%;
+    cursor: pointer;
+    height: 100%;
+}
+.family-pic-2{
+    width: 100%;
+    cursor: pointer;
+    height: 100%;
+}
+.ownership{
+    top: 0;
+    background-color:#fff;
+    width: 10%;
+    position: absolute;
+    height: 35px;
+    margin-top: 0;
+    padding-top: 15px;
+    padding-left: 20px;
+    font-size: 17px;
+    opacity: .8;
+    cursor: pointer;
+    font-family: "BentleyLight", arial, helvetica, sans-serif;
+}
+.pre-owned{
+    top: 0;
+    background-color:#fff;
+    width: 10%;
+    position: absolute;
+    height: 35px;
+    margin-top: 0;
+    padding-top: 15px;
+    padding-left: 20px;
+    font-size: 17px;
+    opacity: .8;
+    cursor: pointer;
+    font-family: "BentleyLight", arial, helvetica, sans-serif;
+}
+.help-desk{
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    font-size: 15px;
+    height: 120px;
+    margin-left: 2.5%;  
+    margin-right: 2.5%x;
+   text-align: center;
+   font-weight: bold;
+   
+   
+}
+.newsletter{
+    flex: 2;
+    border: 1px solid;
+    padding-top: 38px;
+    border-color: rgba(0, 0, 0, 0.1);
+    border-right: 0;
+    color: #335b4c;
+    font-family: BentleyRegular,arial,helvetica,sans-serif;
+    
+}
+.config{
+    flex: 2;
+    border: 1px solid;
+    padding-top: 38px;
+    border-color: rgba(0, 0, 0, 0.1);
+    border-right: 0;
+    color: #335b4c;
+    font-family: BentleyRegular,arial,helvetica,sans-serif;
+}
+.locate{
+    flex: 2;
+    border: 1px solid;
+    padding-top: 38px;
+    border-color: rgba(0, 0, 0, 0.1);
+    border-right: 0;
+    color: #335b4c;
+    font-family: BentleyRegular,arial,helvetica,sans-serif;
+}
+.download-e{
+    flex: 3;
+    border: 1px solid;
+    padding-top: 38px;
+    border-color: rgba(0, 0, 0, 0.1);
+    color: #335b4c;
+    font-family: BentleyRegular,arial,helvetica,sans-serif;
+}
+.uu {
+    background-color: #E6EAE9;
+}
+.first-footer{
+    display: flex;
+    margin-left: 30px;
+    flex-direction: row;
+    color: #335b4c;
+    margin-top: 40px;
+}
+.first-foot1{
+flex: 2;
+}
+.models{
+margin-top: 30px;
+font-family: BentleyLight,arial,helvetica,sans-serif;
+}
+.first-foot2{
+flex: 2;
+}
+.world{
+    margin-top: 30px;
+    font-family: BentleyLight,arial,helvetica,sans-serif;
+}
+.first-foot3{
+flex: 2;
+}
+.own{
+    margin-top: 30px;
+    font-family: BentleyLight,arial,helvetica,sans-serif;
+}
+.first-foot4{
+flex: 2;
+}
+.about{
+    margin-top: 30px;
+    font-family: BentleyLight,arial,helvetica,sans-serif;
+}
+h3{
+    font-family: BentleySemiBold,arial,helvetica,sans-serif;
+    font-size: 17px;
+}
+.icons{
+    display: flex;
+    height: 33px;
+    margin-left: 24px;
+    width: 31%;
+    padding-left: px;
+    margin-top: 40px;
+}
+.footer{
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-top: 50px;
+    border-top: 1px solid black;
+    color: #335b4c;
+    font-family: BentleyLight,arial,helvetica,sans-serif;
+
+}
+.foot-help{
+    display: flex;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.bookmarks{
+    background-color: rgba(0,0,0,.7);
+    color: #fff;
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 20px;
+    font-size: 14px;
+}
